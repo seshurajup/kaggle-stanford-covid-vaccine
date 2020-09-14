@@ -60,5 +60,6 @@ For those interested in how the **629 107-base sequences in test.json** were fil
 * Public vs Private data set stagery is shared.
 * Based on 3 rules, build local cv also as - 9% rows logic as per public cv above rule and 91% rows as private cv.
 * Build model to improve 0.09 x public_local_cv + 0.91 x private_local_cv.
+--- 42772 / (42772 + 273455) x public_local_cv + 273455 / (42772 + 273455) x private_local_cv. actually it is 13.5% public LB
 * Apply Stratified KFold on public_local_cv and private_local_cv.
 * Public LB score based on all 68 sequences only, then 91 sequence in private.
