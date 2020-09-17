@@ -1,3 +1,13 @@
+* Don't miss @hengck23 all discussionss
+
+* base model is [Notebook from hengck23](https://www.kaggle.com/xhlulu/openvaccine-simple-gru-model)
+use one hot encoding for in put (to better visualized the first covn filter for interpret-ability)
+GRU only (LB 0.27072)
+added a 1d CNN embedding before GRU (LB 0.26990)
+add a new seq for bbp, see below(LB 0.26356 )
+train samples = signal ration>1
+fold 5 ensemble average
+
 * in my previous competition on DNA, you will get better results to encode k-mers, rather than using single nucleotide
 e,g:
 single nucleotide : GACGACG --> 1,2,3,1,2,3,1

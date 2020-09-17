@@ -6,7 +6,8 @@
 * CNN + Bi-GRU + attention layer
 * Bert (already done in public kernels)
 * Graph Neural Network (already done in public kernels)
-* is possible transfer learning ?
+* is possible transfer learning - [Tape](https://github.com/songlab-cal/tape)
+* Local Graph based encoded features
 
 ## Custom loss ##
 * msse already done and shared in kaggle
