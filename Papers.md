@@ -1,3 +1,5 @@
+## Background ##
+
 * [Youtube: Understanding RNA folding energy dot-plots](https://www.youtube.com/watch?v=v1UbIUZ8k9o&ab_channel=TheW.C.RayLab)
 
 * [RNA secondary structure prediction using an ensemble of two-dimensional deep neural networks and transfer learning](https://www.nature.com/articles/s41467-019-13395-9.pdf)
@@ -41,3 +43,10 @@ captures conformational changes in secondary structures.
 Conclusions: We have shown that alternative secondary structures are captured by decomposing base-paring
 probabilities over Hamming distance. Source code is available from http://www.ncRNA.org/RintW.
 Keywords: RNA secondary structure, Dynamic programming, Base-pairing probability, Partition function
+
+---
+## Architectures ##
+* [Comprehensive evaluation of deep learning
+architectures for prediction of DNA/RNA
+sequence binding specificities](https://arxiv.org/pdf/1901.10526.pdf)
+	Motivation: Deep learning architectures have recently demonstrated their power in predicting DNA- and RNA-binding specificities. Existing methods fall into three classes: Some are based on Convolutional Neural Networks (CNNs), others use Recurrent Neural Networks (RNNs), and others rely on hybrid architectures combining CNNs and RNNs. However, based on existing studies it is still unclear which deep learning architecture is achieving the best performance. Thus an in-depth analysis and evaluation of the different methods is needed to fully evaluate their relative. Results: In this study, We present a systematic exploration of various deep learning architectures for predicting DNA- and RNA-binding specificities. For this purpose, we present deepRAM, an end-to-end deep learning tool that provides an implementation of novel and previously proposed architectures; its fully automatic model selection procedure allows us to perform a fair and unbiased comparison of deep learning architectures. We find that an architecture that uses k-mer embedding to represent the sequence, a convolutional layer and a recurrent layer, outperforms all other methods in terms of model accuracy. Our work provides guidelines that will assist the practitioner in choosing the best architecture for the task at hand, and provides some insights on the differences between the models learned by convolutional and recurrent networks. In particular, we find that although recurrent networks improve model accuracy, this comes at the expense of a loss in the interpretability of the features learned by the model. Availability and implementation: The source code for deepRAM is available at this https://github.com/MedChaabane/deepRAM
