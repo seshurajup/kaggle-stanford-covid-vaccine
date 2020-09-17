@@ -20,7 +20,8 @@
 * different secondary structure genertated for same sequence using software annie
 
 ## Augmentation ##
-* reverse sequence
+* reverse sequence -- no use of it -- ignore
+* try to build sequence lengths to 130 using non-pair blocks adding and replacing pair blocks with ( avg of values of 1st seq ) * its score + ( avg of value of 2nd seq ) * its score
 * cutmix without losing pair () blocks i.e always move one block with other block
 
 ## Few Samples data
